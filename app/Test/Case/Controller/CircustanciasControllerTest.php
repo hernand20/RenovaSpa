@@ -1,0 +1,72 @@
+<?php
+App::uses('CircustanciasController', 'Controller');
+
+/**
+ * CircustanciasController Test Case
+ */
+class CircustanciasControllerTest extends ControllerTestCase {
+
+/**
+ * Fixtures
+ *
+ * @var array
+ */
+	public $fixtures = array(
+		'app.circustancia',
+		'app.cliente',
+		'app.pais',
+		'app.idioma',
+		'app.hotel',
+		'app.agencia',
+		'app.sesion',
+		'app.opinion',
+		'app.terapeuta',
+		'app.tratamiento'
+	);
+
+/**
+ * testIndex method
+ *
+ * @return void
+ */
+	public function testIndex() {
+		$this->markTestIncomplete('testIndex not implemented.');
+	}
+
+/**
+ * testView method
+ *
+ * @return void
+ */
+	public function testView() {
+		$this->markTestIncomplete('testView not implemented.');
+	}
+
+/**
+ * testAdd method
+ *
+ * @return void
+ */
+	public function testAdd() {
+		$this->markTestIncomplete('testAdd not implemented.');
+	}
+
+/**
+ * testEdit method
+ *
+ * @return void
+ */
+	public function testEdit() {
+		$this->markTestIncomplete('testEdit not implemented.');
+	}
+
+/**
+ * testDelete method
+ *
+ * @return void
+ */
+	public function testDelete() {
+		$this->markTestIncomplete('testDelete not implemented.');
+	}
+
+}
