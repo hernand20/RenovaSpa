@@ -9,14 +9,14 @@ App::uses('AppController', 'Controller');
 class AgenciasController extends AppController {
 
 /**
- * Components
+ * componentes
  *
  * @var array
  */
 	public $components = array('Paginator');
 
 /**
- * index method
+ * método del índice
  *
  * @return void
  */
@@ -26,9 +26,9 @@ class AgenciasController extends AppController {
 	}
 
 /**
- * view method
+ * metodo de la vista
  *
- * @throws NotFoundException
+ * @throws NotFoundException (excepciones)
  * @param string $id
  * @return void
  */
@@ -41,7 +41,7 @@ class AgenciasController extends AppController {
 	}
 
 /**
- * add method
+ * Metodo para agregar una nueba agencia
  *
  * @return void
  */
@@ -58,7 +58,7 @@ class AgenciasController extends AppController {
 	}
 
 /**
- * edit method
+ * Metodo editar
  *
  * @throws NotFoundException
  * @param string $id
@@ -82,7 +82,7 @@ class AgenciasController extends AppController {
 	}
 
 /**
- * delete method
+ * metodo eliminar
  *
  * @throws NotFoundException
  * @param string $id

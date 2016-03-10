@@ -15,7 +15,7 @@ class Agencia extends AppModel {
 	public $displayField = 'razon_social';
 
 /**
- * Validation rules
+ * Validacion de las datos
  *
  * @var array
  */
@@ -62,7 +62,9 @@ class Agencia extends AppModel {
 		),
 	);
 
-	// The Associations below have been created with all possible keys, those that are not needed can be removed
+
+	// Las asociaciones de abajo se han creado todas las claves posibles, aquellos que no son necesarios se pueden eliminar
+
 
 /**
  * hasMany associations

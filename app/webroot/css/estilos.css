@@ -1,0 +1,27 @@
+nav ul li a {
+	color: black;
+  	border-right: 1px solid black;
+  	padding: .9em;
+  	font-family: times, serif; 
+  	font-size:15pt; 
+}
+
+ul li {
+  float: left;
+}
+aside{
+ 	font-family: times; 
+  	font-size:14pt; 
+  	font-style:italic;
+  	color: gray;
+ }
+
+footer{
+ 	font-family: times; 
+  	font-size:14pt; 
+  	font-style:italic;
+  	color: gray;
+ }
+input{
+ 	border-radius: 5px;
+ }

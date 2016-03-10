@@ -15,7 +15,7 @@ class Circustancia extends AppModel {
 	public $displayField = 'nombre';
 
 /**
- * Validation rules
+ * Validacion de los datos
  *
  * @var array
  */
@@ -32,7 +32,8 @@ class Circustancia extends AppModel {
 		),
 	);
 
-	// The Associations below have been created with all possible keys, those that are not needed can be removed
+
+// Las asociaciones de abajo se han creado todas las claves posibles, aquellos que no son necesarios se pueden eliminar
 
 /**
  * hasMany associations

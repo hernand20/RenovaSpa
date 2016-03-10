@@ -113,4 +113,13 @@ class ClientesController extends AppController {
 		}
 		return $this->redirect(array('action' => 'index'));
 	}
+	function pdf($id = null)
+	{
+		if (!$this->Cliente->exists($id)) {
+			throw new NotFoundException(__('Invalid cliente'));
+		}
+		$options = array('conditions' => array('Cliente.' . $this->Cliente->primaryKey => $id));
+		$this->set('cliente', $this->Cliente->find('first', $options));
+	}
+
 }

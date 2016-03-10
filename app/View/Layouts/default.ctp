@@ -29,6 +29,9 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 		echo $this->Html->meta('icon');
 
 		echo $this->Html->css('cake.generic');
+		echo $this->Html->css('style.css');
+		echo $this->Html->css('estilos.css');
+		echo $this->Html->css('grid.css');
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');

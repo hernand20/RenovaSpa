@@ -9,14 +9,14 @@ App::uses('AppController', 'Controller');
 class IdiomasController extends AppController {
 
 /**
- * Components
+ * Componentes
  *
  * @var array
  */
 	public $components = array('Paginator');
 
 /**
- * index method
+ * Metodo para el index
  *
  * @return void
  */
@@ -26,7 +26,7 @@ class IdiomasController extends AppController {
 	}
 
 /**
- * view method
+ * Metodo de la vitas
  *
  * @throws NotFoundException
  * @param string $id
@@ -41,7 +41,7 @@ class IdiomasController extends AppController {
 	}
 
 /**
- * add method
+ * Metodo para agregar mas idiomas
  *
  * @return void
  */
@@ -58,7 +58,7 @@ class IdiomasController extends AppController {
 	}
 
 /**
- * edit method
+ * metodo para editar
  *
  * @throws NotFoundException
  * @param string $id
@@ -82,7 +82,7 @@ class IdiomasController extends AppController {
 	}
 
 /**
- * delete method
+ * Metodo para poder eliminar
  *
  * @throws NotFoundException
  * @param string $id

@@ -9,14 +9,14 @@ App::uses('AppController', 'Controller');
 class TratamientosController extends AppController {
 
 /**
- * Components
+ * Componentes
  *
  * @var array
  */
 	public $components = array('Paginator');
 
 /**
- * index method
+ * Metodo del index
  *
  * @return void
  */
@@ -26,7 +26,7 @@ class TratamientosController extends AppController {
 	}
 
 /**
- * view method
+ * Metodo de la vista
  *
  * @throws NotFoundException
  * @param string $id
@@ -41,7 +41,7 @@ class TratamientosController extends AppController {
 	}
 
 /**
- * add method
+ * Metodo para agregar Tratamientos
  *
  * @return void
  */
@@ -58,7 +58,7 @@ class TratamientosController extends AppController {
 	}
 
 /**
- * edit method
+ * Metodo para poder editar
  *
  * @throws NotFoundException
  * @param string $id
@@ -82,7 +82,7 @@ class TratamientosController extends AppController {
 	}
 
 /**
- * delete method
+ * Metodo para poder eliminar
  *
  * @throws NotFoundException
  * @param string $id

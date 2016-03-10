@@ -9,14 +9,14 @@ App::uses('AppController', 'Controller');
 class SesionesController extends AppController {
 
 /**
- * Components
+ * Componentes
  *
  * @var array
  */
 	public $components = array('Paginator');
 
 /**
- * index method
+ * Metodo del index
  *
  * @return void
  */
@@ -26,7 +26,7 @@ class SesionesController extends AppController {
 	}
 
 /**
- * view method
+ * Metodo de la vista
  *
  * @throws NotFoundException
  * @param string $id
@@ -41,7 +41,7 @@ class SesionesController extends AppController {
 	}
 
 /**
- * add method
+ * Metodo para poder agregar mas sesiones
  *
  * @return void
  */
@@ -57,13 +57,13 @@ class SesionesController extends AppController {
 		}
 		$opiniones = $this->Sesion->Opinion->find('list');
 		$clientes = $this->Sesion->Cliente->find('list');
-		$terapeutas = $this->Sesion->Terapeuta->find('list');//IR 
+		$terapeutas = $this->Sesion->Terapeuta->find('list');//IR
 		$tratamientos = $this->Sesion->Tratamiento->find('list');
 		$this->set(compact('opiniones', 'clientes', 'terapeutas', 'tratamientos'));
 	}
 
 /**
- * edit method
+ * Metodo para poder editar las sesiones
  *
  * @throws NotFoundException
  * @param string $id
@@ -92,7 +92,7 @@ class SesionesController extends AppController {
 	}
 
 /**
- * delete method
+ * Metodo para poder eliminar sesiones
  *
  * @throws NotFoundException
  * @param string $id

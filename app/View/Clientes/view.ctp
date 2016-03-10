@@ -87,7 +87,9 @@
 		<li><?php echo $this->Html->link(__('New Circustancia'), array('controller' => 'circustancias', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Sesiones'), array('controller' => 'sesiones', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Sesion'), array('controller' => 'sesiones', 'action' => 'add')); ?> </li>
+		<input type="button" name="name" value="Imprimir">
 	</ul>
+
 </div>
 <div class="related">
 	<h3><?php echo __('Related Sesiones'); ?></h3>

@@ -1,6 +1,7 @@
 <?php
 App::uses('AppController', 'Controller');
 /**
+ *
  * Circustancias Controller
  *
  * @property Circustancia $Circustancia
@@ -9,14 +10,14 @@ App::uses('AppController', 'Controller');
 class CircustanciasController extends AppController {
 
 /**
- * Components
+ * Componentes
  *
  * @var array
  */
 	public $components = array('Paginator');
 
 /**
- * index method
+ * Metodo del index
  *
  * @return void
  */
@@ -26,7 +27,7 @@ class CircustanciasController extends AppController {
 	}
 
 /**
- * view method
+ * Metodo de la vista
  *
  * @throws NotFoundException
  * @param string $id
@@ -41,7 +42,7 @@ class CircustanciasController extends AppController {
 	}
 
 /**
- * add method
+ * Metodo para eliminar mas circustancia medicas
  *
  * @return void
  */
@@ -58,7 +59,7 @@ class CircustanciasController extends AppController {
 	}
 
 /**
- * edit method
+ * Metodo para poder editar las circunstancias
  *
  * @throws NotFoundException
  * @param string $id
@@ -82,7 +83,7 @@ class CircustanciasController extends AppController {
 	}
 
 /**
- * delete method
+ * Metodo para poder eliminar circunstancias
  *
  * @throws NotFoundException
  * @param string $id

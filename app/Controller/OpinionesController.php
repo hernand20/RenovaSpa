@@ -9,14 +9,14 @@ App::uses('AppController', 'Controller');
 class OpinionesController extends AppController {
 
 /**
- * Components
+ * Componentes
  *
  * @var array
  */
 	public $components = array('Paginator');
 
 /**
- * index method
+ * Metodo del index
  *
  * @return void
  */
@@ -26,7 +26,7 @@ class OpinionesController extends AppController {
 	}
 
 /**
- * view method
+ * Meotodo de la vista
  *
  * @throws NotFoundException
  * @param string $id
@@ -41,7 +41,7 @@ class OpinionesController extends AppController {
 	}
 
 /**
- * add method
+ * metodo para poder agregar mas opiniones
  *
  * @return void
  */
@@ -58,7 +58,7 @@ class OpinionesController extends AppController {
 	}
 
 /**
- * edit method
+ * Metodo para editar las opiniones
  *
  * @throws NotFoundException
  * @param string $id
@@ -82,7 +82,7 @@ class OpinionesController extends AppController {
 	}
 
 /**
- * delete method
+ * Metodo para poder eliminar
  *
  * @throws NotFoundException
  * @param string $id

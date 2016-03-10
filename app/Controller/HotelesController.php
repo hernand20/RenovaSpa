@@ -9,14 +9,14 @@ App::uses('AppController', 'Controller');
 class HotelesController extends AppController {
 
 /**
- * Components
+ * Componentes
  *
  * @var array
  */
 	public $components = array('Paginator');
 
 /**
- * index method
+ * Metodo del index
  *
  * @return void
  */
@@ -26,7 +26,7 @@ class HotelesController extends AppController {
 	}
 
 /**
- * view method
+ * Metodo para la vista
  *
  * @throws NotFoundException
  * @param string $id
@@ -41,7 +41,7 @@ class HotelesController extends AppController {
 	}
 
 /**
- * add method
+ * Metodo para poder agregar mas hoteles
  *
  * @return void
  */
@@ -58,7 +58,7 @@ class HotelesController extends AppController {
 	}
 
 /**
- * edit method
+ * metodo para poder editar los hoteles
  *
  * @throws NotFoundException
  * @param string $id
@@ -82,7 +82,7 @@ class HotelesController extends AppController {
 	}
 
 /**
- * delete method
+ *Metodo para poder eliminar hoteles
  *
  * @throws NotFoundException
  * @param string $id

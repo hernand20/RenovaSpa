@@ -1,0 +1,96 @@
+@media (min-width: 0px){
+	[class*="col-"] {
+		width: 100%;
+	}
+
+	body{
+		background-color: black;
+		color: white;
+	}
+	img{
+		/*width: 100%;*/
+		height: auto;
+	}
+
+	nav ul li{
+		display: block;
+	}
+
+	nav ul li a{
+		color: white;
+	}
+
+	nav ul li a:hover{
+		color: #333;
+		text-decoration: none;
+	}
+
+	#barra{
+		display: none;
+	}
+	
+}
+
+@media (min-width: 360px){
+	[class*="col-"] {
+		width: 100%;
+	}
+
+	body{
+		background-color: red;
+		color: white;
+	}
+	nav ul li{
+		display: block;
+	}
+
+	nav ul li a{
+		color: white;
+	}
+
+	nav ul li a:hover{
+		color: #333;
+		text-decoration: none;
+	}
+	
+}
+
+@media (min-width: 584px){
+	nav ul li{
+		display: inline;
+	}
+}
+
+@media (min-width: 768px){
+	nav ul li{
+		display: inline;
+	}
+
+	body{
+		background-color: orange;
+	}
+	#barra{
+		display: block;
+	}
+
+	.col-1 { width: 8.333%; }
+	.col-2 { width: 16.666%; }
+	.col-3 { width: 24.999%; }
+	.col-4 { width: 33.332%; }
+	.col-5 { width: 41.665%; }
+	.col-6 { width: 49.998%; }
+	.col-7 { width: 58.331%; }
+	.col-8 { width: 66.664%; }
+	.col-9 { width: 74.997%; }
+	.col-10 { width: 83.33%;  }
+	.col-11 { width: 91.663%; }
+	.col-12 { width: 99.996%; }
+
+
+}
+
+@media (min-width: 1280px){
+	body{
+		background-color: white;
+	}
+}
